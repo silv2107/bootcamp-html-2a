@@ -1,0 +1,12 @@
+@import './article-header.css';
+@import './article-figure.css';
+
+.mainArticle {
+	display: grid;
+	grid-template-rows: repeat(4, auto);
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: ". teaser teaser teaser"
+											 "cover cover cover cover"
+											 "newssection colophon colophon commentcount"
+											 "byline content content content";
+}

@@ -1,0 +1,6 @@
+@import './heading.css';
+@import './article-summary.css';
+
+.mainArticle__articleHeader {
+	grid-area: teaser;
+}
