@@ -1,0 +1,135 @@
+.latestNewsArticles{
+    grid-area: latestNews;
+    display: flex;
+}
+
+/* start af latestNewsArticles__teasers */
+
+.latestNewsArticles__teasers{
+    flex:.9;
+}
+
+.latestNewsArticles__subscriptions{
+    flex: 3;
+}
+
+.teasers__article p{
+    margin:0px 0px 0px 0px;
+    color: black;
+    font-size: .9em;
+}
+
+.teasers__article p:nth-child(2){
+    margin-bottom: 15px;
+    font-weight: bolder;
+    border-bottom: rgba(0, 0, 0, 0.088) 1px solid;
+    padding-bottom: 10px;
+}
+
+.teasers__article p:first-child{
+    font-size: .7em;
+    color: rgba(0, 0, 0, 0.299);
+}
+
+.lastTeaser p:nth-child(2){
+    border-bottom: dashed 1px black;
+}
+
+.teaser__moreNews a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: .9em;
+}
+
+/* start af latestNewsArticles__subscriptions */
+
+.subscriptions__frontpage{
+    padding-left: 20px;
+    width: 120px;
+}
+
+.subscriptions__frontpage p{
+    font-size: .9em;
+    font-weight: bolder;
+    margin-top: 1px;
+    float: right;
+}
+
+.subscriptions__articleLink{
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%; */
+    display: grid;
+    grid-template: 100% / repeat(3,1fr) ;
+    grid-gap: 12px;
+    font-size: .9em;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.articleLink__subscription p{
+    width: 220px;
+    margin:5px 0px 5px 0px;
+}
+
+.articleLink__subscription img{
+    width: 100%;
+}
+
+.subscription__articleTitle{
+    font-size: .5em;
+    margin-bottom: 4px;
+    color: red;
+}
+
+.subscriptionArticle__titleArticle{
+    /* font-size: .8em; */
+    font-weight: bolder;
+    width: 180px;
+}
+
+.articleLink__subscription1{
+    margin-top: 22.7px;
+}
+
+.articleLink__subscription2 p{
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.429);
+}
+
+/* second row of articles*/
+
+/* .subscriptions__secondRow{
+    
+    display: grid;
+    grid-template: 50% / repeat(3,1fr);
+    width: 100%;
+    font-size: .9em;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin-top: 25px;
+    grid-gap: 12px;
+
+}
+
+.secondRow__subscription p{
+    width: 220px;
+    margin:5px 0px 5px 0px;
+}
+
+.secondRow__subscription2 p{
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.400);
+}
+
+.secondRow__subscription img{
+    width: 100%;
+}
+
+.secondRow__subscription2 h3{
+    margin: 0px;
+}
+ */
+

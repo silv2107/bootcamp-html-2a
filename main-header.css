@@ -1,0 +1,7 @@
+@import './page-logo.css';
+@import './page-nav.css';
+
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+}

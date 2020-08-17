@@ -1,0 +1,8 @@
+@import './byline.css';
+@import './content.css';
+
+.mainArticle__bylineContent{
+    grid-area: content;
+    display: flex; 
+      
+}

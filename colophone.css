@@ -1,0 +1,53 @@
+.mainArticle__abonnement{
+	font-size: .5em;
+	color: hsla(0, 0%, 16%, 0.558);
+	margin-bottom: 5px;
+}
+
+.abonnement__colorRed{
+	color: red;
+}
+
+.mainArticle__colophones{
+    grid-area: colophon;
+    display: grid;
+    grid-template: auto / 24% 56% 20% ;
+    margin-top: 30px;
+}
+
+.colophones__header{
+    color: red;
+    margin: 0px;
+    width: 93%;
+    padding-top: 7px;
+    border-bottom: black dashed .5px;
+}
+
+.colophones__clock{
+    margin-bottom: 0px;
+    margin-left: 15px;
+    height: 36px;
+    font-weight: bolder;
+    font-size: .7em;
+    border-bottom: black dashed .5px;
+
+}
+
+.colophones__comment{
+    padding-left: 78px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-size: .7em;
+    border-bottom: black dashed .5px;
+
+}
+
+.colophones_clockImg{
+    padding-right: 3px;
+}
+
+.colophones_clockComment{
+    padding-right: 3px;
+}
+

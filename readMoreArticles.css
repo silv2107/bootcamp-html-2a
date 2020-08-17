@@ -1,0 +1,24 @@
+.readMoreArticles{
+    grid-area: articleImgLink;
+    margin-top: 25px;
+    display: grid;
+    grid-template: 100% / repeat(4,1fr) ;
+    grid-gap: 12px;
+}
+
+
+
+.newArticle p{
+    font-size: .8em;
+    font-weight: bolder;
+    margin-top: 0px;
+    color: #000000;
+}
+
+.newArticle img{
+    width: 100%;
+}
+
+.readMoreArticles1_fourth{
+    margin-right: 0px;
+}

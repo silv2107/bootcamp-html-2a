@@ -1,0 +1,31 @@
+.mainHeader__menuLogoLogin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menuLogoLogin__menuSearch{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.menuLogoLogin__menuSearch img{
+    height: 15px;
+}
+
+.menuLogoLogin__login{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menuLogoLogin__login img{
+    height: 15px;
+
+}
+

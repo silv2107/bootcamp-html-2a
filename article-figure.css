@@ -3,6 +3,7 @@
 	grid-template-columns: repeat(4, 1fr);
 	grid-area: cover;
 	margin: 0;
+
 }
 
 .coverPhoto__caption {

@@ -1,0 +1,52 @@
+
+.mainArticle__subscriptionLogin{
+    grid-area: subscribe;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.subTitle{
+    font-weight: bolder;
+    color: hsl(255, 255, 0);
+    font-size: .95em;
+}
+
+.subscriptionLogin__title1{
+    
+    margin: 0px 0px 0px 0px;
+}
+
+.subscriptionLogin__title2{
+    margin: 0px 0px 25px 0px;
+}
+
+.subscriptionLogin__clickHere{
+    margin: 0 auto;
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    border: red 1px solid;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .8em;
+
+}
+
+.subscriptionLogin__clickHere a{
+    color: white;
+    text-decoration: none;
+}
+
+.subscriptionLogin__loginLink{
+    opacity: .6;
+    font-size: .77em;
+}
+
+.subscriptionLogin__loginLink a{
+    opacity: 1;
+    color:rgba(0, 0, 0);
+    font-weight: bolder;
+}
+
+
+

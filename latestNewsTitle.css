@@ -1,0 +1,25 @@
+.latestNewsTitle{
+    grid-area: latestTitle;
+    display: flex;
+    justify-content: space-between;
+    font-size: .9em;
+    color: red;
+    font-weight: bolder;
+}
+
+.latestTitle__update{
+    flex:.90;
+    border-bottom: .5px black dashed;
+    padding-bottom: 7px;
+
+}
+
+.latestNewsTitle__website{
+    flex:3;
+    border-bottom: .5px black dashed;
+    margin-left: 23px;
+    padding-bottom: 7px;
+    text-align: end;
+
+
+}

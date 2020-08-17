@@ -1,0 +1,31 @@
+.bylineContent__content{
+    position: relative;
+    flex:3;
+    /* border: solid 1px red; */
+    /* text-align: center; */
+}
+
+
+
+.theContent__icons{
+    float: right;
+    margin: 5px 10px 80px ;
+}
+
+.theContent_text{
+    margin-top: 35px;
+}
+
+.content__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+

@@ -1,0 +1,24 @@
+.readMore{
+    grid-area:readMoreText;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dashed black .7px;
+    height: 45px;
+}
+
+.readMore__titleQuestion{
+    color: red;
+    font-weight: bolder;
+}
+
+.readMore__titleArrows{
+    padding-top: 25px;
+}
+
+.readMore__titleArrows img{
+    border-radius: 10px;
+}
+
+.readMore__titleArrows img:first-child{
+    margin-right: 8px;
+}

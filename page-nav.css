@@ -1,0 +1,22 @@
+.mainHeader__primaryNav{
+    width: 368px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainHeader__primaryNav a{
+    text-decoration: none;
+    font-size: .9em;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+.mainHeader__primaryNav a:nth-child(1){
+    margin-left: 15px;
+}
+
+.mainHeader__primaryNav a:nth-child(3){
+    color: red;
+}
